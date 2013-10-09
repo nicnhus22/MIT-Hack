@@ -1,0 +1,24 @@
+@keyframes fade_out {
+	0%		{opacity:0.75;}
+    25%     {opacity:0.50;}
+    50%     {opacity:0;}
+    75%     {opacity:0.50;}
+    100%    {opacity:0.75;}
+}
+
+@keyframes explode {
+	from		{height:350px;width:350px;}
+   	to     		{height:250px;width:250px;}
+}
+
+@keyframes implode {
+	from        {height:250px;width:250px;}
+   	to			{height:350px;width:350px;}
+}
+
+@keyframes move_logo {
+	from		{left:0;}
+	to			{left:-150px;}	
+}
+
+

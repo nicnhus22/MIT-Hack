@@ -1,0 +1,113 @@
+
+.cube_container {
+    position: relative;
+    height:40px;
+    width:400px;
+    left:20px;
+    perspective:1000px;
+    -webkit-perspective:1000px;
+    -ms-perspective:1000px;
+}
+
+#cube {
+    position:absolute;
+    width:100%;
+    height:100%;
+    display:block;
+
+    transform-style:preserve-3d;
+    transform:translateZ(-180px);
+    transition:all 2s;
+    
+    -webkit-transform-style:preserve-3d;
+    -webkit-transform:translateZ(-180px);
+    -webkit-transition:all 2s;
+
+    -ms-transform-style:preserve-3d;
+    -ms-transform:translateZ(-180px);
+    -ms-transition:all 2s;
+}
+
+#cube figure {
+    position:absolute;
+    display:block;
+    width:350px;
+    height:350px;
+    border:10px solid #000;
+    opacity:0.9;
+    transition:all 2s;
+    -webkit-transition:all 2s;
+    -ms-transition:all 2s;
+}
+
+#front {
+    background-color: #c4302b;
+    transform:rotateY(0deg) translateZ(180px);
+    transition:all 2s;
+
+    -webkit-transform:rotateY(0deg) translateZ(180px);
+    -webkit-transition:all 2s;
+
+    -ms-transform:rotateY(0deg) translateZ(180px);
+    -ms-transition:all 2s;
+}
+
+#back {
+    background-color: #4099FF;
+    transform:rotateY(180deg) translateZ(180px);
+    transition:all 2s;
+
+    -webkit-transform:rotateY(180deg) translateZ(180px);
+    -webkit-transition:all 2s;
+
+    -ms-transform:rotateY(180deg) translateZ(180px);
+    -ms-transition:all 2s;
+}
+
+#right {
+    background-color:#FF6600;
+    transform:rotateY(90deg) translateZ(180px);
+    transition:all 2s;
+
+    -webkit-transform:rotateY(90deg) translateZ(180px);
+    -webkit-transition:all 2s;
+
+    -ms-transform:rotateY(90deg) translateZ(180px);
+    -ms-transition:all 2s;
+}
+
+#left {
+    background-color:#365AA9;
+    transform:rotateY(-90deg) translateZ(180px);
+    transition:all 2s;
+
+    -webkit-transform:rotateY(-90deg) translateZ(180px);
+    -webkit-transition:all 2s;
+
+    -ms-transform:rotateY(-90deg) translateZ(180px);
+    -ms-transition:all 2s;
+}
+
+#up {
+    background-image:url(../images/cube.png);
+    transform:rotateX(90deg) translateZ(180px);
+    transition:all 2s;
+
+    -webkit-transform:rotateX(90deg) translateZ(180px);
+    -webkit-transition:all 2s;
+
+    -ms-transform:rotateX(90deg) translateZ(180px);
+    -ms-transition:all 2s;
+}
+
+#down {
+    background-image:url(../images/cube.png);
+    transform:rotateX(-90deg) translateZ(180px);
+    transition:all 2s;
+
+    -webkit-transform:rotateX(-90deg) translateZ(180px);
+    -webkit-transition:all 2s;
+
+    -ms-transform:rotateX(-90deg) translateZ(180px);
+    -ms-transition:all 2s;
+}

@@ -1,0 +1,46 @@
+
+#weather_layout {
+	position:relative;
+	height: 100%;
+	width:310px;
+	padding:20px;
+	font-family: 'Roboto', serif;
+	display:none;
+}
+
+#first_row {
+	position:relative;
+	left:-140px;
+}
+
+#temp {
+	font-size: 40px;
+	font-weight: bold;
+	float: left;
+}
+
+#weather {
+	font-size: 30px;
+	float: right;
+	font-weight:bold;
+}
+
+#location {
+	
+}
+
+#date {
+	position:relative;
+	bottom:0;
+
+}
+
+#humidity {
+
+}
+
+#wind {
+
+}
+
+
